@@ -34,8 +34,12 @@
 #### 模型部署与运行
 
 - **环境配置**
+
   - pip install flash_attn
   - pip install transformers==4.37.2 gradio==4.16.0 accelerate==0.26.1
+
+- **模型运行**
+  - python hf.py --model_path=../autodl-tmp/MiniCPM-Llama3-V-2_5 --torch_dtype=float32
 
 #### 参考
 
