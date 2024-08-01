@@ -35,11 +35,21 @@
 
 - **环境配置**
 
+  - Pillow==10.1.0
+    torch==2.1.2
+    torchvision==0.16.2
+    transformers==4.40.0
+    sentencepiece==0.1.99
+
   - pip install flash_attn
   - pip install transformers==4.37.2 gradio==4.16.0 accelerate==0.26.1
 
 - **模型运行**
   - python hf.py --model_path=../autodl-tmp/MiniCPM-Llama3-V-2_5 --torch_dtype=float32
+- **运行网络隧穿**
+  - 端口暴露和链接详见[教程][4]
+
+[4]: https://www.autodl.com/docs/ssh_proxy/
 
 #### 参考
 
