@@ -18,3 +18,27 @@
 [1]: (https://huggingface.co/openbmb/MiniCPM-Llama3-V-2_5)
 
 #### 数据集
+
+**选择[H&M 个性化时尚数据集][3]**
+
+- **images** - 每一个 article_id 的商品所对应的图片
+
+- **articles** - 每一个 article_id 对应的商品具体的 Metadata
+
+- **customers** - 每一个 customer_id 对应的顾客具体的 Metadata
+
+- **transactions_train** - 历史购买记录
+
+[3]: https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/overview
+
+#### 模型部署与运行
+
+- **环境配置**
+  - pip install flash_attn
+  - pip install transformers==4.37.2 gradio==4.16.0 accelerate==0.26.1
+
+#### 参考
+
+[PALR: Personalization Aware LLMs for Recommendation][2]
+
+[2]: https://arxiv.org/abs/2305.07622
