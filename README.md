@@ -34,6 +34,14 @@
 [5]: https://www.kaggle.com/datasets/odins0n/handm-dataset-128x128?select=images_128_128
 [3]: https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/overview
 
+**Amazon 数据集**
+
+- **[benchmark][7]**
+- **[数据介绍页][6]**
+
+[7]: https://paperswithcode.com/dataset/amazon-review
+[6]: https://nijianmo.github.io/amazon/index.html
+
 #### 模型部署与运行
 
 - **环境配置**
