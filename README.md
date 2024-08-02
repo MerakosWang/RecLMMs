@@ -29,6 +29,9 @@
 
 - **transactions_train** - 历史购买记录
 
+**原始图像过大(34G),缩放 128x128[数据集地址][5]**
+
+[5]: https://www.kaggle.com/datasets/odins0n/handm-dataset-128x128?select=images_128_128
 [3]: https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/overview
 
 #### 模型部署与运行
