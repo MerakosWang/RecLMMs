@@ -2,6 +2,8 @@
 
 **West Lake University Artificial Intelligence Summer Program G3_Project** :rocket:
 
+---
+
 #### 模型选择
 
 **[MiniCPM-Llama3-v-2_5][1] 是 MiniCPM-V 系列的最新型号。该模型基于 SigLip-400M 和 Llama3-8B-Instruct 构建，共有 8B 参数。与 MiniCPM-V 2.0 相比，它表现出显着的性能改进。**
@@ -16,6 +18,8 @@
 ![MiniCPM性能表现](https://cdn-uploads.huggingface.co/production/uploads/64abc4aa6cadc7aca585dddf/v2KE3wqQgM05ZW3dH2wbx.png)
 
 [1]: (https://huggingface.co/openbmb/MiniCPM-Llama3-V-2_5)
+
+---
 
 #### 数据集
 
@@ -42,6 +46,8 @@
 [7]: https://paperswithcode.com/dataset/amazon-review
 [6]: https://nijianmo.github.io/amazon/index.html
 
+---
+
 #### 模型部署与运行
 
 - **环境配置**
@@ -62,8 +68,17 @@
 
 [4]: https://www.autodl.com/docs/ssh_proxy/
 
+---
+
 #### 参考
 
 [PALR: Personalization Aware LLMs for Recommendation][2]
 
 [2]: https://arxiv.org/abs/2305.07622
+
+- 推荐系统
+  - 基于大模型的推荐
+    - LLM+Prompt
+  - 大模型增强的推荐
+  - 大模型幻觉
+    - 推荐一个不存在的地点/商品/理论
