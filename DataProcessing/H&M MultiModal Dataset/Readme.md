@@ -1,5 +1,9 @@
 ### HM 数据集处理流程
 
+| 用户数 | 商品数 | 交互数 |
+| ------ | ------ | ------ |
+| 1000   | 10683  | 20000  |
+
 #### 用户交互数据生成
 
 - **Gen_InteractionList.py**
@@ -23,4 +27,12 @@
   - 担心过多商品类目，LLM 无法记忆，先使每个用户只保留 20 个商品类目，18 个用于训练，第 19 用于验证，第 20 用于测试
 
 - **Search_Customers.py**
+
   - 从 customers.csv 中找出那 1000 条用户 id 所在的用户属性信息
+
+- **Articles_Retrieval_and_Removal.py**
+
+  - 挑出所有商品 id，去重统计
+
+- **Search Articles**
+  - 从 articles.csv 中找到所有满足交互的商品 id
