@@ -35,4 +35,8 @@
   - 挑出所有商品 id，去重统计
 
 - **Search Articles**
+
   - 从 articles.csv 中找到所有满足交互的商品 id
+
+- **Articles_Summary.py**
+  - 商品信息总结，以自然语言的方式进行呈现，方便后续制作微调数据集
