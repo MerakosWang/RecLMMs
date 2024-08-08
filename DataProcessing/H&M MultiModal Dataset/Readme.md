@@ -39,4 +39,21 @@
   - 从 articles.csv 中找到所有满足交互的商品 id
 
 - **Articles_Summary.py**
+
   - 商品信息总结，以自然语言的方式进行呈现，方便后续制作微调数据集
+
+- **Customer_Summary.py**
+
+  - 同上，用自然语言描述用户特征
+
+- **Cross_correlation.py**
+
+  - 用户交互历史构建(文本化方式表述)
+
+- **Interaction_2json.py**
+
+  - 将用户交互历史构建数据转为 SFT 专用的 json 格式
+
+- **Img_test.py**
+  - 测试所有数据中插入的图片路径均存在该照片
+    - 事实是 HM 数据集并非所有路径均有图片
