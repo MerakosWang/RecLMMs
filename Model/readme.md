@@ -1,0 +1,3 @@
+- **merge.py**
+  - 使用该脚本，将 lora 的权重合并大 base model 中
+  - 原始 Minicpm 并没有 merge_lora 代码
